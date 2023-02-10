@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- linked css file -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    
+    <header>
+        <!-- conveter heading -->
+        <h1 id="heading">USD to CAD Converter</h1>
+    </header>
+
+    <main>
+        <!-- converter form -->
+        <form action="">
+            <!-- input-1 to collect currency1 -->
+            <label for="currency1" id="currency1Label">USD</label>
+            <span id="required">*</span><br>
+            <input type="text" placeholder="Enter USD" id="currency1"> <br> <br>
+    
+            <!-- image button to swap currencies -->
+            <button type="button" onclick="swap()">
+                <img src="./swap.jpg" alt="swap-image">
+            </button> <br> <br>
+
+            <!-- input-2 to display the converted currency -->
+            <label for="currency2" id="currency2Label">CAD</label> <br>
+            <input type="text" placeholder="Get CAD here" id="currency2" disabled> <br> <br>
+    
+            <!-- button for currency conversion -->
+            <button type="button" onclick="convert()">Convert</button>
+
+            <!-- button to clear input fields -->
+            <button type="button" onclick="erase()">Clear</button>
+        </form>
+    </main>
+
+    <!-- linked js file -->
+    <script src="./app.js"></script>
+</body>
+</html>

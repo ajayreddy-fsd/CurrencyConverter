@@ -1,0 +1,18 @@
+/* to give red-color to the data validation alerts */
+#required{
+    color: red;
+    font-weight: bold;
+}
+
+/* to adjust the swap image height */
+img{
+    height: 50px;
+}
+
+/* code to center the converter */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
